@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/Screens/Register.dart';
-import 'Screens/Login.dart';
-import 'Screens/Home.dart';
+import 'package:flutter_application_1/screens/register.dart';
+import 'screens/login.dart';
+import 'screens/home.dart';
 
 void main(){
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -18,10 +18,10 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home:LoginPage(),
+      home:const LoginPage(),
       routes: {
-        '/home':(context)=>Home(),
-        '/register':(context)=>Register()
+        '/home':(context)=>const Home(),
+        '/register':(context)=>const Register()
       },
 
     );

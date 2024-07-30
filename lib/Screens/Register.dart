@@ -21,7 +21,7 @@ class _RegisterState extends State<Register> {
     return Scaffold(
       body: Container(
         alignment: AlignmentDirectional.center,
-        child: Column(
+        child: const Column(
           
           children: [
             TextField(
